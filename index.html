@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Painting App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="toolbar">
+        <button id="btnToDraw">D</button>
+        <button id="btnToErase">E</button>
+        <button id="btnToUndo">U</button>
+        <button id="btnToClear">C</button>
+    </div>
+    <div class="settings">
+        <input type="range" id="sizeOfPencil" min="1" max="40" value="5">
+        <input type="color" id="color">
+    </div>    
+    <canvas id="canvas" width="500" height="500"></canvas>
+    <script src="script.js"></script>
+</body>
+</html>
